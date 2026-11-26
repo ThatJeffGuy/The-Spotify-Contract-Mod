@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: The Spotify Contract
+## Notes: Answers "? [item]" in guild chat with auction house prices shared between guild members. /tsc for status.
+## Author: Jeff Wilton (Joe Roegan)
+## Version: 1.0.0
+## X-Website: https://github.com/ThatJeffGuy/The-Spotify-Contract-Mod
+## X-License: MIT
+## OptionalDeps: Auctionator, Auc-Advanced, RareScanner
+## SavedVariables: TheSpotifyContractDB
+
+TheSpotifyContract.lua
