@@ -52,7 +52,11 @@ Data is shared quietly over addon messages and **never while you're in combat**.
 - **Catch-up:** when you become eligible, you get what you missed while you were away, privately and paced the same way.
 - **On a question:** the answering member first checks for newer data in that item's AH subcategory (for example Consumables › Food & Drink), as long as nobody involved is in combat.
 
-When several members run the addon, only one answers each question.
+### One answer per question
+
+When several members run the addon, the asker still gets a single reply. Each member's addon waits a short random moment, then claims the question with a tiny guild addon message. The first claim wins and everyone else stays quiet. If two claims land at the same moment, the alphabetically lower character name answers. Members who aren't in combat wait less, so they usually answer first.
+
+A second reply can only happen if guild addon messages lag by more than about 0.7 seconds, so one member doesn't see another's claim in time. That should be rare, and it means one extra line, not a flood.
 
 ## Known limits
 
